@@ -11,4 +11,8 @@ class Cat
   def name
     @name
   end
+  
+  def owner
+    @owner.name
+  end
 end
