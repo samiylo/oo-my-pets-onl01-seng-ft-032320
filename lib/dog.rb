@@ -7,7 +7,7 @@ class Dog
     @name = name
     owner_obj = Owner.new(owner)
     @mood = "nervous"
-    @owner = owner_obj
+    @owner = owner_obj.name
     
     @@all << self
   end
