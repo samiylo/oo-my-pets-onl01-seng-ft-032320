@@ -7,4 +7,8 @@ class Cat
     @owner = Owner.new(owner)
     @mood = "nervous"
   end
+  
+  def name
+    @name
+  end
 end
