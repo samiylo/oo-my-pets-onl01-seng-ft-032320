@@ -8,4 +8,8 @@ class Owner
   def name 
     @name 
   end
+  
+  def species
+    @species
+  end
 end
