@@ -19,4 +19,10 @@ class Dog
   def mood
     @mood
   end
+  
+  # Class Methods
+  
+  def self.all
+    @@all 
+  end
 end
