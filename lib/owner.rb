@@ -36,6 +36,13 @@ class Owner
   end
   
   
+  # ASSOCIATIONS OWNER 
+  
+  def cats 
+    
+  end
+  
+  
   
   
   
