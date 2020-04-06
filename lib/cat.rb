@@ -9,7 +9,7 @@ class Cat
     owner_obj = Owner.new(owner_name)
     @owner = owner_obj.name
     @mood = "nervous"
-    
+    @owner.cats << self
     @@all << self
   end
   
