@@ -8,8 +8,9 @@ class Dog
     owner_obj = Owner.new(owner_name)
     @mood = "nervous"
     @owner = owner_obj.name
-    
+    @owner.dogs << self
     @@all << self
+    
   end
   
   def name
