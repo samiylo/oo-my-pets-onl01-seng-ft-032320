@@ -14,6 +14,6 @@ class Owner
   end
   
   def say_species
-    puts 
+    puts "I am a #{@species}."
   end
 end
