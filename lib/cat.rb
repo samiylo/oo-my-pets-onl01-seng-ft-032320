@@ -4,7 +4,8 @@ class Cat
   
   def initialize (name, owner_name)
     @name = name
-    @owner = Owner.new(owner_name)
+    owner_obj = Owner.new(owner_name)
+    @owner = owner_obj.name
     @mood = "nervous"
   end
   
