@@ -42,9 +42,6 @@ class Owner
   
   # ASSOCIATIONS OWNER 
   
-  def cats 
-    
-  end
   
   
   
