@@ -12,7 +12,7 @@ class Cat
     @name
   end
   
-  def owner
-    @owner.name
-  end
+  # def owner
+  #   @owner.name
+  # end
 end
