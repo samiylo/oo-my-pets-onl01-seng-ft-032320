@@ -3,13 +3,14 @@ class Cat
   attr_accessor :owner, :mood
   
   @@all = []
+  
   def initialize (name, owner_name)
     @name = name
     owner_obj = Owner.new(owner_name)
     @owner = owner_obj.name
     @mood = "nervous"
     
-    @@all << self
+    @@all << owner_obj
   end
   
   def name
