@@ -2,9 +2,9 @@ class Cat
   # code goes here
   attr_accessor :owner, :mood
   
-  def initialize (name)
+  def initialize (name, Owner)
     @name = name
-    @owner = Owner.new
+    @owner = Owner
     @mood = "nervous"
   end
 end
