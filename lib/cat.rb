@@ -20,6 +20,6 @@ class Cat
   # Class Methods
   
   def self.all
-    @all
+    @@all
   end
 end
