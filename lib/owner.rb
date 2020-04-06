@@ -20,7 +20,15 @@ class Owner
     "I am a #{@species}."
   end
   
+  # Class Methods
+  
   def self.all 
     @@all 
   end
+  
+  def self.count
+    num = @@all.count
+    num
+  end
+  
 end
